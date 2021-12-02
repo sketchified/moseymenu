@@ -1,0 +1,33 @@
+body{
+    background-color: darkorange;
+}
+.container{
+    border: 1px solid black;
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+.count{
+    justify-content: center;
+    align-items: center;
+}
+
+ 
