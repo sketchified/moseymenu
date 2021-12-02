@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(36, 230, 10);
+    background-color: darkorange;
 }
 .container{
     border: 1px solid black;
@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 
-.nav{
+.counter{
     border: 1px solid black;
     border-radius: 15px;
     width: 75%;
