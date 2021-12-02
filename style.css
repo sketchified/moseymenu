@@ -22,9 +22,28 @@ body{
     align-items: center;
     text-align: center;
     flex-direction: column;
+
     
 
 }
+
+.counterLit{
+    border: 4px solid rgb(4, 43, 219);
+    border-radius: 15px;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    
+
+}
+
+
 .count{
     justify-content: center;
     align-items: center;
