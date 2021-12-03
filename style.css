@@ -1,10 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(36, 230, 10);
 }
 .container{
     border: 1px solid black;
-    width: 75%;
-    height: 100vh;
+    width: 200px;
+    height: 100px;
     margin: auto;
     display: flex;
     justify-content: center;
