@@ -2,7 +2,7 @@ const flashcards = document.getElementsByClassName ("flashcards")[0];
 const createBox = document.getElementsByClassName ("create-box")[0];
 const question = document.getElementById ("question")
 const answer = document.getElementById ("answer")
-let contentArray = localStorage.getItem('items') ? JSON.parse(localstorage.getItem('items')): [];
+let contentArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')): [];
 
 contentArray.forEach(divMaker);
 
@@ -40,12 +40,12 @@ function addFlashcard(){
     }
     contentArray.push(flashcard_info);
     localStorage.setItem('items', JSON.stringify(contentArray));
-    divMaker(content[content.length - 1]);
+    divMaker(contentArray[contentArray.length - 1]);
     question.value = '';
-    answer .value = '';
+    answer.value = '';
 }
 
-function delFlashcards(){
+function delFlashCards(){
     localStorage.clear();
     flashcards.innerHTML = '';
     contentArray = [];
